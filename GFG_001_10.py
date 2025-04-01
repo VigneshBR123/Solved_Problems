@@ -1,6 +1,6 @@
 import math                 #For prblm_9
 
-#prblm_1: Peak Element (GFG)
+#prblm_1: Peak Element (GFG)                    !Important
     #Time Complexity: O(N) --> Linear Search || We can optimize it using 'Binary Search'
 def peakElement(arr):
     for i in range(len(arr)):
@@ -29,7 +29,7 @@ def largest(arr):
     return max(arr)                 # I used here built-in, there is many alternative approaches.
 #print(largest(arr))
 
-#prblm_3: Sum of Natural Numbers (GFG)
+#prblm_3: Sum of Natural Numbers (GFG)              !Important
     #Time Complexity: O(1)
 def seriesSum(n : int) -> int:
     return round((n/2)*(n+1))       # Simple Mathematics Approach
@@ -54,7 +54,7 @@ ary = [1, 2, 3, 4]
 x = 3
 #print(search(ary,x))
 
-#prblm_5: Array Subset (GFG)  --> *Important
+#prblm_5: Array Subset (GFG)                    !Important
     #Solution: 1
 def isSubset(a, b):
     for i in b:                 
@@ -83,14 +83,14 @@ def isSubset(a, b):
     return True
     #Time Complexity: O(N + M) --> Efficient Solution
 
-#prblm_6: Largest Element In Array (GFG)
+#prblm_6: Reverse a String (GFG)
     #Time Complexity: O(N)
 def reverseString(s: str) -> str:
     return s[::-1]  
 s = 'Greeks'
 #print(reverseString(s))
 
-#prblm_7: Largest Element In Array (GFG)
+#prblm_7: Sorted Array Search (GFG)
     #Time Complexity: O(logN)   ---> Binary Search
 def searchInSorted(arr, k):
     start,end = 0,len(arr)-1
@@ -107,7 +107,7 @@ arr = [1,2,3,4]
 k = 3
 #print(searchInSorted(arr,k))
 
-#prblm_8: Reverse Array Groups (GFG)
+#prblm_8: Reverse Array Groups (GFG)                    !Important
     #Time Complexity: O(N)
 def reverseInGroups(arr, k):
     if len(arr) <= k:
@@ -128,7 +128,7 @@ lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 k = 2
 #print(reverseInGroups(lst,k))
 
-#prblm_9: Reverse Array Groups (GFG)
+#prblm_9: Prime Number (GFG)                !Important
     #Time Complexity: O(√n)
 def isPrime(n):
     if n == 1:
@@ -140,7 +140,7 @@ def isPrime(n):
 n = 7
 #print(isPrime(n))
 
-#prblm_10: Reverse Array Groups (GFG)   --> With out using built-in
+#prblm_10: Min And Max In Array (GFG)   --> With out using built-in         
     #Time Complexity: O(N)
 def get_min_max(arr):
     min_val = arr[0]
